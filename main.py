@@ -22,5 +22,5 @@ async def ping(ctx):
     await ctx.send(f'Pong! Latenz: {round(bot.latency * 1000)}ms')
 
 # 3. Den Token von Railway abrufen
-token = os.getenv('MTQ2MTA1NzQ5MTM5ODk1MDkzMw.G14lWt.ZrFyMXtpf2QqkNou3Q8fdIXuyHSpQfjN-6ERQg')
+token = os.getenv('DISCORD_TOKEN')
 bot.run(token)
